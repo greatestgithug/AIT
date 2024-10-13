@@ -1,0 +1,31 @@
+graph = {
+
+'5' : ['3','7'], 
+
+'3' : ['2', '4'],
+
+'7' : ['8'],
+
+'2' : [], 
+
+'4' : ['8'],
+
+'8' : []
+
+}
+
+visited = set()
+
+def dfs(visited, graph, node): 
+
+ifnodenotinvisited: 
+
+print(node) visited.add(node) 
+
+forneighbouringraph[node]: 
+
+dfs(visited,graph,neighbour)
+
+print("FollowingistheDepth-FirstSearch")
+
+dfs(visited,graph, '5')
